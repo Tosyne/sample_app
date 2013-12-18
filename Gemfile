@@ -7,6 +7,7 @@ gem 'rails'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+	gem 'capybara'
 end
 
 # Use SCSS for stylesheets
@@ -38,9 +39,7 @@ end
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby'
 
-group :test do
-	gem 'capybara'
-end
+ 
 
 group :production do
 	gem 'pg'
